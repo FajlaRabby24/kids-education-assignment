@@ -13,7 +13,7 @@ body {
     font-family: "Quicksand", serif;
 }
 
-.container{
+.container {
     max-width: 1170px;
     margin: 0 auto;
 }
@@ -22,11 +22,19 @@ body {
     display: flex;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
 .pointer {
     cursor: pointer;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
@@ -36,4 +44,20 @@ body {
 
 .text-white {
     color: #fff;
+}
+
+.text-warning {
+    color: #FEA301;
+}
+
+.text-primary {
+    color: #01ACFD;
+}
+
+.text-info {
+    color: #05D4DF;
+}
+
+.text-success {
+    color: #28A745;
 }

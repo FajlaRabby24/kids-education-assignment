@@ -1,0 +1,63 @@
+/* navbar styles  */
+.navbar {
+    justify-content: space-between;
+    padding: 1.25rem 0;
+}
+
+.brand-text {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: .4rem;
+    color: #111111;
+}
+
+.navbar ul {
+    list-style: none;
+    gap: 2rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+.contact-btn {
+    background-color: #FEA301;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: .625rem 1.875rem;
+    border: none;
+    border-radius: 12px;
+}
+
+.mobile-icon {
+    display: none;
+    font-size: 1.5rem;
+}
+
+
+
+
+/* media query styles */
+@media screen and (max-width: 576px) {
+    .navbar {
+        padding: 1.25rem 1.5rem;
+    }
+
+    .nav,
+    .btn-container,
+    .brand-text {
+        display: none;
+    }
+
+    .brand-logo {
+        font-size: 0.8rem;
+    }
+
+    .mobile-icon {
+        display: block;
+    }
+}
