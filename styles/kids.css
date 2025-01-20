@@ -1,3 +1,7 @@
+header{
+    border-bottom: 1px dashed #ccc;
+}
+
 /* navbar styles  */
 .navbar {
     justify-content: space-between;
@@ -35,16 +39,57 @@
 
 .mobile-icon {
     display: none;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
 
+/* banner styles */
+.banner{
+    padding: 3rem 0 0 0 ;
+}
+.banner-content{
+    max-width: 640px;
+}
+.banner-title {
+    color: #111111;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.banner-des {
+    color: #111111;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
+}
+
+.enroll-btn{
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 12px;
+}
+
+.banner-img img{
+    width: 100%;
+}
 
 
 
 /* media query styles */
 @media screen and (max-width: 576px) {
+    html{
+        font-size: 9px;
+    }
+    header{
+        border: none;
+    }
+    /* navbar  */
     .navbar {
-        padding: 1.25rem 1.5rem;
+        padding: .5rem 1.5rem;
+        border-bottom: 1px solid #FEA301;
     }
 
     .nav,
@@ -54,10 +99,19 @@
     }
 
     .brand-logo {
-        font-size: 0.8rem;
+        font-size: 0.1rem;
     }
 
     .mobile-icon {
         display: block;
+    }
+    /* banner  */
+    .banner{
+        flex-direction: column-reverse;
+        padding:0 1.5rem;
+        text-align: center;
+    }
+    .banner-content{
+       padding: 1.77rem 0;
     }
 }
