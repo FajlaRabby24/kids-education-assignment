@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <title>Kids-Education</title>
     <link rel="stylesheet" href="styles/shared.css">
     <link rel="stylesheet" href="styles/kids.css">
 </head>
 
 <body>
+    <!-- header  -->
     <header>
         <!-- navbar  -->
         <div class="navbar flex align-center container">
@@ -29,21 +30,57 @@
             <div class="btn-container">
                 <button class="contact-btn pointer">Contact</button>
             </div>
-            <div class="mobile-icon"><i class="fa-solid fa-bars pointer"></i></div>
+            <div class="mobile-icon"><i class='bx bx-menu'></i></div>
         </div>
         <!-- banner  -->
-         <div class="banner flex container justify-between align-center">
+        <div class="banner flex container justify-between align-center">
             <div class="banner-content">
                 <h1 class="banner-title"><span class="text-warning">Empowering</span><br>
                     students from small age <span class="text-primary">towards vision</span></h1>
-                <p class="banner-des">With the courage, Confidence, Creativity and Compassion to make their Unique Contribution in a Diverse and Dynamic World.</p>
+                <p class="banner-des">With the courage, Confidence, Creativity and Compassion to make their Unique
+                    Contribution in a Diverse and Dynamic World.</p>
                 <button class="enroll-btn pointer">Enroll Now</button>
             </div>
             <div class="banner-img">
                 <img src="assets/hero-kids.png" alt="hero-kids">
             </div>
-         </div>
+        </div>
     </header>
+    <!-- main  -->
+    <main>
+        <section class="curriculum">
+            <h2 class="title">Standard Curriculum</h2>
+            <div class="curriculum-card-container container flex text-center">
+                <div class="curriculum-card">
+                    <img src="assets/kinder.png" alt="kinder">
+                    <h3 class="curriculum-card-title">Kinder (3-6) Years</h3>
+                    <p class="des">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <h5 class="read-more text-primary pointer">Read More</h5>
+                </div>
+                <div class="curriculum-card">
+                    <img src="assets/elementary.png" alt="elementary">
+                    <h3 class="curriculum-card-title">Elementary SCHOOL</h3>
+                    <p class="des">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <h5 class="read-more text-warning pointer">Read More</h5>
+                </div>
+                <div class="curriculum-card">
+                    <img src="assets/middle.png" alt="middle">
+                    <h3 class="curriculum-card-title">Middle (10-16) Years</h3>
+                    <p class="des">Cum sociis natoque penatibus et magnis
+                        dis parturient montes, nascetur ridiculus
+                        mu sdis parturient</p>
+                    <h5 class="read-more pointer text-purple ">Read More</h5>
+                </div>
+            </div>
+            <div class="arrow-container container flex justify-center align-center">
+                <span class="arrow pointer" style="margin-right: 10px;"><i class='bx bx-chevron-left' style='color:#ffffff; '  ></i></span>
+                <span class="arrow pointer"><i class='bx bx-chevron-right' style='color:#ffffff' ></i></span>
+            </div>
+        </section>
 </body>
 
 </html>

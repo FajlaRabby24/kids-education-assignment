@@ -1,4 +1,4 @@
-header{
+header {
     border-bottom: 1px dashed #ccc;
 }
 
@@ -39,16 +39,18 @@ header{
 
 .mobile-icon {
     display: none;
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 /* banner styles */
-.banner{
-    padding: 3rem 0 0 0 ;
+.banner {
+    padding: 3rem 0 0 0;
 }
-.banner-content{
+
+.banner-content {
     max-width: 640px;
 }
+
 .banner-title {
     color: #111111;
     font-size: 3.5rem;
@@ -62,7 +64,7 @@ header{
     margin: 1.5rem 0;
 }
 
-.enroll-btn{
+.enroll-btn {
     background-color: #111111;
     color: rgb(255, 255, 255);
     font-size: 1.25rem;
@@ -72,20 +74,84 @@ header{
     border-radius: 12px;
 }
 
-.banner-img img{
+.banner-img img {
     width: 100%;
 }
 
+/* curriculum styles */
+.curriculum {
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
 
+.curriculum-card-container {
+    gap: 28px;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.curriculum-card {
+    border-radius: 18px;
+    padding: 40px;
+}
+
+.curriculum-card>.curriculum-card-title {
+    color: rgb(32, 32, 32);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 32px;
+}
+
+.curriculum-card>.des {
+    margin: 25px 0 30px 0;
+}
+
+.read-more{
+    font-size: .937rem;
+}
+
+.curriculum-card:nth-child(1) {
+    background-image: linear-gradient(360deg, #ffffff 40%, #def3fc);
+    border: 1px solid #def3fc;
+}
+
+.curriculum-card:nth-child(2) {
+    background-image: linear-gradient(360deg, #ffffff 40%, #fbf1dc);
+    border: 1px solid #fbf1dc;
+}
+
+.curriculum-card:nth-child(3) {
+    background-image: linear-gradient(360deg, #ffffff 40%, #ede1fc);
+    border: 1px solid #ede1fc;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: #FEA301;
+    margin-top: 69px;
+}
+
+.arrow i{
+    font-size: 40px;
+}
 
 /* media query styles */
 @media screen and (max-width: 576px) {
-    html{
+    html {
         font-size: 9px;
     }
-    header{
+
+    header {
         border: none;
     }
+
     /* navbar  */
     .navbar {
         padding: .5rem 1.5rem;
@@ -105,13 +171,33 @@ header{
     .mobile-icon {
         display: block;
     }
+
     /* banner  */
-    .banner{
+    .banner {
         flex-direction: column-reverse;
-        padding:0 1.5rem;
+        padding: 0 1.5rem;
         text-align: center;
     }
-    .banner-content{
-       padding: 1.77rem 0;
+
+    .banner-content {
+        padding: 1.77rem 0;
+    }
+
+    /* curriculum  */
+    .curriculum-card-container{
+        padding: 0 24px;
+        flex-direction: column;
+    }
+    .arrow-container{
+        display: none;
+    }
+    .curriculum-card>.curriculum-card-title{
+        font-size: 1.9rem;
+    }
+    .curriculum-card>.des{
+        font-size: 1.4rem;
+    }
+    .read-more{
+        font-size: 1.5rem;
     }
 }
