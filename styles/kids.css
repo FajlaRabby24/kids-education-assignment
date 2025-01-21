@@ -1,5 +1,5 @@
 header {
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 2px dashed #ccc;
 }
 
 /* navbar styles  */
@@ -167,12 +167,24 @@ header {
 }
 
 .big-card-content {
+    position: relative;
     max-width: 100%;
     padding: 17px 35px;
     background-color: #fff;
     border-radius: 0 0 16px 16px;
 }
 
+.big-card-btn button {
+    border-radius: 47.93px;
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 600;
+    position: absolute;
+    top: -25px;
+    border: none;
+    padding: 10px 20px;
+    background: rgb(60, 216, 232);
+}
 
 .big-card-title {
     font-size: 1.5rem;
@@ -187,6 +199,7 @@ header {
     width: calc(50%);
 }
 
+
 .small-card .img-container img {
     width: 100%;
     border-radius: 16px 16px 0 0;
@@ -196,12 +209,25 @@ header {
     background-color: #fff;
     border-radius: 0 0 16px 16px;
     padding: 34px 16px;
+    position: relative;
 }
 
 .small-card-title {
     color: rgb(0, 0, 0);
     font-size: 0.95875rem;
     font-weight: 700;
+}
+
+.small-card-btn button {
+    border-radius: 47.93px;
+    color: rgb(255, 255, 255);
+    font-size: 15.34px;
+    font-weight: 600;
+    position: absolute;
+    top: -25px;
+    border: none;
+    padding: 10px 20px;
+    background: #95B226;
 }
 
 /* footer  */
@@ -276,6 +302,10 @@ footer {
     }
 
     /* curriculum  */
+    .curriculum {
+        border: none;
+    }
+
     .curriculum-card-container {
         padding: 0 24px;
         flex-direction: column;
@@ -299,14 +329,13 @@ footer {
 
     /* stories  */
     .small-card-container {
-
         padding: 0 24px;
         width: 100%;
     }
 
     .small-card-title {
         color: rgb(0, 0, 0);
-        font-size: 1.77rem;
+        font-size: 1.5rem;
         font-weight: 700;
     }
 
@@ -332,8 +361,8 @@ footer {
     }
 
     .footer-row .big-card-title {
-        margin-bottom : 15px;
-        margin-top : 25px;
+        margin-bottom: 15px;
+        margin-top: 25px;
         font-size: 2.26rem;
     }
 
