@@ -64,12 +64,12 @@ header {
     margin: 1.5rem 0;
 }
 
-.enroll-btn {
+.enroll-btn, .view-all {
     background-color: #111111;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 1.25rem;
     font-weight: 600;
-    padding: 10px 25px;
+    padding: 10px 35px;
     border: none;
     border-radius: 12px;
 }
@@ -83,6 +83,8 @@ header {
     background-image: url('../assets/bg.png');
     background-repeat: no-repeat;
     padding: 60px 0;
+    border-bottom: 2px dashed #ccc;
+    ;
 }
 
 .curriculum-card-container {
@@ -107,7 +109,7 @@ header {
     margin: 25px 0 30px 0;
 }
 
-.read-more{
+.read-more {
     font-size: .937rem;
 }
 
@@ -138,8 +140,68 @@ header {
     margin-top: 69px;
 }
 
-.arrow i{
+.arrow i {
     font-size: 40px;
+}
+
+/* stories styles */
+.stories {
+    padding: 60px 0;
+    background-image: url('../assets/bg.png'),linear-gradient(#fff, #fbf1dc);
+}
+
+.stories-card-container {
+    margin: 80px 0 ;
+    gap: 20px;
+}
+
+.big-card {
+    min-width: 10%;
+    max-width: calc(50% - 20px);
+}
+
+.big-card img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.big-card-content {
+    max-width: 100%;
+    padding: 17px 35px;
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+}
+
+
+.big-card-title {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 50px 0 35px 0;
+}
+
+.small-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: calc(50%);
+}
+
+.small-card .img-container img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.small-card-content {
+    background-color: #fff;
+    border-radius: 0 0 16px 16px;
+    padding: 34px 16px;
+}
+
+.small-card-title {
+    color: rgb(0, 0, 0);
+    font-size: 0.95875rem;
+    font-weight: 700;
 }
 
 /* media query styles */
@@ -160,7 +222,8 @@ header {
 
     .nav,
     .btn-container,
-    .brand-text {
+    .brand-text,
+    .big-card {
         display: none;
     }
 
@@ -184,20 +247,38 @@ header {
     }
 
     /* curriculum  */
-    .curriculum-card-container{
+    .curriculum-card-container {
         padding: 0 24px;
         flex-direction: column;
     }
-    .arrow-container{
+
+    .arrow-container {
         display: none;
     }
-    .curriculum-card>.curriculum-card-title{
+
+    .curriculum-card>.curriculum-card-title {
         font-size: 1.9rem;
     }
-    .curriculum-card>.des{
+
+    .curriculum-card>.des {
         font-size: 1.4rem;
     }
-    .read-more{
+
+    .read-more {
         font-size: 1.5rem;
     }
+
+    /* stories  */
+    .small-card-container {
+       
+        padding: 0 24px;
+        width: 100%;
+    }
+
+    .small-card-title {
+        color: rgb(0, 0, 0);
+        font-size: 1.77rem;
+        font-weight: 700;
+    }
+
 }
