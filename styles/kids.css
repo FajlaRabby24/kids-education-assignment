@@ -241,12 +241,18 @@ footer {
     overflow: hidden;
 }
 
-.footer-row .banner-des {
+.footer-row .footer-des {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 1.5rem 0;
     width: 399px;
     color: #fff;
 }
 
-.footer-row .big-card-title {
+.footer-row .footer-col-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 50px 0 35px 0;
     margin-top: 0;
 }
 
