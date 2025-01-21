@@ -322,7 +322,8 @@ footer {
     }
 
     .footer-row .brand-text {
-        font-size: 3.88rem;
+        display: block;
+        font-size: 3.50rem;
     }
 
     .footer-row .banner-des {
@@ -331,21 +332,13 @@ footer {
     }
 
     .footer-row .big-card-title {
-        margin-top: 0;
+        margin-bottom : 15px;
+        margin-top : 25px;
         font-size: 2.26rem;
     }
 
-    .footer-row .col ul {
-        list-style: none;
-    }
-
-    .footer-row ul li {
-        margin-bottom: 20px;
-    }
 
     .footer-row ul li a {
-        text-decoration: none;
         font-size: 1.77rem;
-        font-weight: 500;
     }
 }
