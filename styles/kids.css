@@ -64,7 +64,8 @@ header {
     margin: 1.5rem 0;
 }
 
-.enroll-btn, .view-all {
+.enroll-btn,
+.view-all {
     background-color: #111111;
     color: #ffffff;
     font-size: 1.25rem;
@@ -147,11 +148,11 @@ header {
 /* stories styles */
 .stories {
     padding: 60px 0;
-    background-image: url('../assets/bg.png'),linear-gradient(#fff, #fbf1dc);
+    background-image: url('../assets/bg.png'), linear-gradient(#fff, #fbf1dc);
 }
 
 .stories-card-container {
-    margin: 80px 0 ;
+    margin: 80px 0;
     gap: 20px;
 }
 
@@ -174,7 +175,6 @@ header {
 
 
 .big-card-title {
-    color: rgb(0, 0, 0);
     font-size: 1.5rem;
     font-weight: 700;
     margin: 50px 0 35px 0;
@@ -202,6 +202,35 @@ header {
     color: rgb(0, 0, 0);
     font-size: 0.95875rem;
     font-weight: 700;
+}
+
+/* footer  */
+footer {
+    background-color: #01ACFD;
+    padding: 100px 0;
+}
+
+.footer-row .banner-des {
+    width: 399px;
+    color: #fff;
+}
+
+.footer-row .big-card-title {
+    margin-top: 0;
+}
+
+.footer-row .col ul {
+    list-style: none;
+}
+
+.footer-row ul li {
+    margin-bottom: 20px;
+}
+
+.footer-row ul li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
 }
 
 /* media query styles */
@@ -270,7 +299,7 @@ header {
 
     /* stories  */
     .small-card-container {
-       
+
         padding: 0 24px;
         width: 100%;
     }
@@ -281,4 +310,42 @@ header {
         font-weight: 700;
     }
 
+    /* footer  */
+    footer {
+        padding: 50px 0;
+    }
+
+    .footer-row {
+        flex-direction: column;
+        padding: 0 24px;
+        width: 90%;
+    }
+
+    .footer-row .brand-text {
+        font-size: 3.88rem;
+    }
+
+    .footer-row .banner-des {
+        font-size: 1.77rem;
+        width: 100%;
+    }
+
+    .footer-row .big-card-title {
+        margin-top: 0;
+        font-size: 2.26rem;
+    }
+
+    .footer-row .col ul {
+        list-style: none;
+    }
+
+    .footer-row ul li {
+        margin-bottom: 20px;
+    }
+
+    .footer-row ul li a {
+        text-decoration: none;
+        font-size: 1.77rem;
+        font-weight: 500;
+    }
 }
