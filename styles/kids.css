@@ -178,7 +178,7 @@ marquee{
     border-radius: 0 0 16px 16px;
 }
 
-.big-card-btn button {
+.big-card-btn span {
     border-radius: 47.93px;
     color: rgb(255, 255, 255);
     font-size: 15.34px;
@@ -222,7 +222,7 @@ marquee{
     font-weight: 700;
 }
 
-.small-card-btn button {
+.small-card-btn span {
     border-radius: 47.93px;
     color: rgb(255, 255, 255);
     font-size: .9375rem;
@@ -358,7 +358,7 @@ footer {
         font-size: 1.2rem;
         font-weight: 700;
     }
-    .small-card-btn button{
+    .small-card-btn span{
         top: -15px;
         padding: 6px 15px;
         font-size: 1.22rem;
