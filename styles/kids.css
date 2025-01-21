@@ -90,7 +90,6 @@ marquee{
     background-repeat: no-repeat;
     padding: 60px 0;
     border-bottom: 2px dashed #ccc;
-    ;
 }
 
 .curriculum-card-container {
@@ -226,7 +225,7 @@ marquee{
 .small-card-btn button {
     border-radius: 47.93px;
     color: rgb(255, 255, 255);
-    font-size: 15.34px;
+    font-size: .9375rem;
     font-weight: 600;
     position: absolute;
     top: -25px;
@@ -239,6 +238,7 @@ marquee{
 footer {
     background-color: #01ACFD;
     padding: 100px 0;
+    overflow: hidden;
 }
 
 .footer-row .banner-des {
@@ -345,8 +345,13 @@ footer {
 
     .small-card-title {
         color: rgb(0, 0, 0);
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 700;
+    }
+    .small-card-btn button{
+        top: -15px;
+        padding: 6px 15px;
+        font-size: 1.22rem;
     }
 
     /* footer  */
