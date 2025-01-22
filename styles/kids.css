@@ -80,7 +80,7 @@ header {
 }
 
 /* marquee  */
-marquee{
+marquee {
     font-size: 1.5rem;
 }
 
@@ -312,8 +312,13 @@ footer {
         padding: 1.77rem 0;
     }
 
+    .enroll-btn,
+    .view-all {
+        font-size: 1.66rem;
+    }
+
     /* marque */
-    marquee{
+    marquee {
         font-size: 15px;
     }
 
@@ -358,7 +363,8 @@ footer {
         font-size: 1.2rem;
         font-weight: 700;
     }
-    .small-card-btn span{
+
+    .small-card-btn span {
         top: -15px;
         padding: 6px 15px;
         font-size: 1.22rem;
